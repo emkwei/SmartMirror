@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Welcome from './components/Welcome';
+import Calender from './components/Calender';
+import Todo from './components/Todo';
+import Weather from './components/Weather';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  & > div {
+    display: flex;
+    flex-direction: row;
+  }
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Welcome />
+      <Weather />
+      <div>
+        <Todo />
+        <Calender />
+      </div>
+    </Container>
   );
 }
 
