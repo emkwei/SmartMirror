@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const TodoContainer = styled.div`
-  background-color: #282c34;
+  background-color: black;
+  border: 5px solid white;
   color: #ffffff;
   padding: 20px;
   border-radius: 8px;
@@ -21,7 +22,8 @@ const TodoList = styled.ul`
 `;
 
 const TodoItem = styled.li`
-  background-color: #3c4049;
+  background-color: black;
+  border: 3px solid white;
   margin: 8px 0;
   padding: 10px;
   border-radius: 4px;
@@ -38,7 +40,7 @@ function Todo() {
   // Static data for the todo list
   const todos = [
     { id: 1, task: 'Finish React prototype', completed: false },
-    { id: 2, task: 'Review styled-components', completed: true },
+    { id: 2, task: 'Review styled-components', completed: false },
     { id: 3, task: 'Plan presentation', completed: false },
   ];
 

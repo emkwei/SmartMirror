@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const WelcomeContainer = styled.div`
-  background-color: #282c34;
+  background-color: black;
+  border: 5px solid white;
   color: #61dafb;
   padding: 20px;
   border-radius: 8px;

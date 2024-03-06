@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CalendarContainer = styled.div`
-  background-color: #20232a;
-  color: #61dafb;
+  background-color: black;
+  border: 5px solid white;
+  /* color: #61dafb; */
   padding: 20px;
   border-radius: 8px;
   max-width: 600px;
@@ -25,12 +26,14 @@ const DayGrid = styled.div`
 
 const Day = styled.div`
   padding: 10px;
-  background-color: #333740;
+  background-color: black;
+  border: 2px solid white;
   border-radius: 4px;
 `;
 
 const Event = styled.div`
-  background-color: #4caf50;
+  background-color: black;
+  border: 1px solid white;
   color: #ffffff;
   margin-top: 4px;
   padding: 2px;

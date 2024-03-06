@@ -5,7 +5,8 @@ import { Cloud } from '@styled-icons/bootstrap/Cloud'; // Using styled-icons for
 const WeatherContainer = styled.div`
   font-family: 'Arial', sans-serif;
   color: #fff;
-  background-color: #333;
+  background-color: black;
+  border: 5px solid white;
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
